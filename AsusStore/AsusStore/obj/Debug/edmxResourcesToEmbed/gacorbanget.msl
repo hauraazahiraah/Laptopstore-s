@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="laptopstoreModel1StoreContainer" CdmEntityContainer="laptopstoreEntities1">
+    <EntitySetMapping Name="databarang">
+      <EntityTypeMapping TypeName="laptopstoreModel1.databarang">
+        <MappingFragment StoreEntitySet="databarang">
+          <ScalarProperty Name="kodebarang" ColumnName="kodebarang" />
+          <ScalarProperty Name="Namabarang" ColumnName="Namabarang" />
+          <ScalarProperty Name="Hargabarang" ColumnName="Hargabarang" />
+          <ScalarProperty Name="Stokbarang" ColumnName="Stokbarang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataUser">
+      <EntityTypeMapping TypeName="laptopstoreModel1.DataUser">
+        <MappingFragment StoreEntitySet="DataUser">
+          <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+          <ScalarProperty Name="Nama" ColumnName="Nama" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
